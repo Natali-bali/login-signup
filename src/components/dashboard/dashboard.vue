@@ -15,7 +15,7 @@ import axios from 'axios';
           return !this.$store.getters.user ? false : this.$store.getters.user.email
         },
         name() {
-          return !this.$store.getters.user ? false : this.$store.getters.user.name
+          return !this.$store.getters.user ? false : this.$store.getters.user.userName
         }
     },
     created() {
